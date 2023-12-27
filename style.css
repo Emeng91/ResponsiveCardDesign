@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+html{
+    font-size: 62.5%;
+}
+.container{
+    width: 100%;
+    max-width: 120rem;
+    overflow: hidden;
+    margin: auto;
+    text-align: center;
+    display: grid;
+    grid-template-columns: 60% 60%;
+}
+.post{
+    width: 47%;
+    overflow: hidden;
+    background-color: #f1f1f1;
+    border-radius: 1rem;
+    float: left;
+    margin: 1rem;
+    box-shadow: 0 0 1rem #000;
+    max-height: 100rem;
+}
+.post img{
+    height: 30rem;
+    width: 100%;
+}
+
+@media screen and (max-width:680px){
+    .post{
+        width: 96%;
+        margin: 2%;
+    }
+}
